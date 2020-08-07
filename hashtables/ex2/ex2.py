@@ -11,8 +11,9 @@ class Ticket:
 # The tickets are messed up but we're still able to figure out a way
 # to sort them. The very first ticket would be NONE -> 'something'.
 # We can save the key:value as source:destination of tickets to a dict.
-# We can add the very first destination to our arr .Now we can start
-# looping to sort the tickets.
+# We can add the very first destination to our arr. We should make a count
+# for looping. Setting cur to value of the first k. Update our cur while
+# we in the loop and append the cur everytime we updated it.
 
 def reconstruct_trip(tickets, length):
     cache = {}
