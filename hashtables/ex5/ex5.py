@@ -1,3 +1,9 @@
+# First we figure out what the name of the files are, then
+# let's set it into our cache with the key being the name and
+# value being the whole path. Once we done that, we can now
+# compare between the key in our cache and the name of the queries.
+# If match, we found our solution, just append them to the result []
+
 def finder(files, queries):
     cache = {}
     result = []
